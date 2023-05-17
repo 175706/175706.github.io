@@ -162,3 +162,6 @@ body {
     float: left;
 }
 
+.col3{ column-count: 3;}
+
+.col4{ text-align: justify; column-gap: 35px; column-rule: double; column-count: 4;}
