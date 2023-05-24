@@ -165,3 +165,41 @@ body {
 .col3{ column-count: 3;}
 
 .col4{ text-align: justify; column-gap: 35px; column-rule: double; column-count: 4;}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer{
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000000;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: .1cm;
+    color: #f2f2f2;
+}
+.footer-bottom{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
