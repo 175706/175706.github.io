@@ -104,10 +104,6 @@ summary{
 	
 }
 
-td{
-	background-color: rgb(172, 170, 170);
-}
-
 
 .col4{
 	text-align: justify; column-gap: 35px; column-rule: double; column-count: 4;
